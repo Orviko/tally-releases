@@ -36,8 +36,6 @@ Install it over 1.0.0. Builds that send usage to Orviko Tasks ask each person to
 
 Tally does not run `sudo` or other administrator-level commands without your permission, and *Orviko Tasks* cannot trigger arbitrary commands. All commands *Tally* executes are explicitly defined in its source code with fixed arguments. These restrictions are enforced only through application code, not by the operating system.
 
-I reviewed the source code to verify the current implementation and made no changes.
-
 ### The admin-level job: model policy only
 
 - **Mac:** Tally asks for an admin password once, in macOS's normal prompt, to install its policy helper. It doesn't use `sudo`.
